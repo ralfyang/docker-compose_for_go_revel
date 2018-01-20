@@ -12,7 +12,7 @@ cd ~
 # Git clone
 git clone https://github.com/goody80/docker-compose_for_go_revel.git
 
-# For tje mysql Data directory inintializing
+# For the mysql Data directory inintializing
 cd docker-compose_for_go_revel && cp -Rfv datadir_template datadir && chown -R 1000:1000 datadir
 
 # Alias for long command
