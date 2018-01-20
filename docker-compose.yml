@@ -19,7 +19,11 @@ services:
             - 9000:9000 
         depends_on:
             - db 
-
+        environment:
+            - APP_NAME=RalfApp
+            - APP_PORT=9000
+            - APP_DB=revel
+            - APP_DB_PW=secret
 #volumes:
 #    db_data:
 #      driver: local
