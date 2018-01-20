@@ -2,8 +2,8 @@
 
 ## How to install (macOS or Linux)
 * Requires
- * docker: https://docs.docker.com/engine/installation/
- * docker-compose: https://docs.docker.com/compose/install/
+  * docker: https://docs.docker.com/engine/installation/
+  * docker-compose: https://docs.docker.com/compose/install/
 
 ```
 # Go Home
