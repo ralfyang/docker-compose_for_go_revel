@@ -1,2 +1,5 @@
 # docker-compose_for_go_revel
-docker-compose up
+
+```
+alias goapp='cd $PWD/docker-compose_for_go_revel && docker-compose down && docker-compose up -d'
+```
