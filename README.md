@@ -1,7 +1,9 @@
 # docker-compose_for_go_revel
 
 ## How to install (macOS or Linux)
-* Requires: docker, docker-compose
+* Requires
+ * docker: https://docs.docker.com/engine/installation/
+ * docker-compose: https://docs.docker.com/compose/install/
 
 ```
 # Go Home
