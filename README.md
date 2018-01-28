@@ -4,6 +4,11 @@
 * Requires
   * docker: https://docs.docker.com/engine/installation/
   * docker-compose: https://docs.docker.com/compose/install/
+ 
+* Docker & docker-compose easy install
+```
+curl -sL bit.ly/startdocker |bash
+```
 
 ```
 # Go Home
