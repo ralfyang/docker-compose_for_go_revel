@@ -1,4 +1,7 @@
-FROM golang:1.8.0 
+FROM golang:1.8.1
+
+LABEL version=0.1
+LABEL name=go_revel
 
 ENV GOPATH $GOPATH:/go/src 
 
