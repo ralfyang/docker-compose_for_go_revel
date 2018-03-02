@@ -17,7 +17,8 @@ services:
         entrypoint: revel run myapp 
         ports:
             - 9000:9000 
-        depends_on:
+#        depends_on:
+        links:
             - db 
         environment:
             - APP_NAME=RalfApp
