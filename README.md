@@ -21,7 +21,7 @@ git clone https://github.com/goody80/docker-compose_for_go_revel.git
 cd docker-compose_for_go_revel && bash selfservice.sh
 
 # Alias for long command
-alias goapp='cd $(pwd) && docker-compose down && docker-compose up -d && cd -'
+echo "alias goapp='cd $(pwd) && docker-compose down && docker-compose up -d && cd -'" >> ~/.bashrc
 ```
 
 ## How to use
