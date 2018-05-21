@@ -19,9 +19,8 @@ git clone https://github.com/goody80/docker-compose_for_go_revel.git
 
 # For the mysql Data directory inintializing
 cd docker-compose_for_go_revel && bash selfservice.sh
-
 # Alias for long command
-alias goapp='cd ~/docker-compose_for_go_revel && docker-compose down && docker-compose up -d && cd -'
+alias goapp='cd $(pwd) && docker-compose down && docker-compose up -d && cd -'
 ```
 
 ## How to use
