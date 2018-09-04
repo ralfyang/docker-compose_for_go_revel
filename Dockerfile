@@ -1,4 +1,4 @@
-FROM golang:1.8.1
+FROM golang:1.11
 
 LABEL version=0.1
 LABEL name=go_revel
